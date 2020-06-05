@@ -12,7 +12,26 @@ var chocolates = [
 ];
 
 //Progression 1: Add ___ chocolates of ____ color
+// Go to the browser fine
+// you are getting different colors inside your color argument right
+function addChocolates (chocolates,color,count) {
+    if(count>0)
+    {
+        for(let i =0;i<count;i++)  
+        {
+        chocolates.unshift(color);
+    }
+}
+else{
+    return "Number cannot be zero/negative";
+}
 
+//count++;
+//return count;
+}
+// its done sir
+
+//  = chocolates.push("red","red");
 
 //Progression 2: Remove ___ chocolates from the top the dispenser
 
